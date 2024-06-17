@@ -8,7 +8,7 @@
   --LightGrey: hsl(30, 18%, 87%);
   --WengeBrown: hsl(30, 10%, 34%);
   --DarkCharcoal: hsl(24, 5%, 18%);
-  --Paragraph: 16px;
+  --Paragraph: 1rem;
   --Headfamily: Young Serif, serif;
   --Fontfamily: Outfit, sans-serif;
 }
@@ -28,6 +28,8 @@
 
 html {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--Eggshell);
   color: var(--WengeBrown);
   font-family: var(--Fontfamily);
@@ -41,7 +43,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: var(--DarkCharcoal);
   font-family: var(--Headfamily);
   font-weight: 400;
@@ -52,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: var(--Headfamily);
   color: var(--Nutmeg);
   font-weight: 400;
@@ -61,7 +63,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--DarkRaspberry);
   font-weight: 600;
   line-height: 1;
@@ -184,13 +186,14 @@ tr:last-child td {
   padding-right: 17px;
 }
 
+/* 600px breakpoint */
 @media screen and (max-width: 600px) {
-  html {
+  /* html {
     height: auto;
-  }
+  } */
 
   h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     padding-top: 0px;
     margin-top: 0px;
   }
