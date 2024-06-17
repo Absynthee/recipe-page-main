@@ -178,7 +178,7 @@ tr:last-child td {
   border-bottom: none;
 }
 
-#value {
+.value {
   color: var(--Nutmeg);
   font-weight: 700;
   padding-right: 17px;
